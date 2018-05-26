@@ -9,7 +9,7 @@ class App
         @playing = true
         run_app
     end
-    
+
     def welcome_menu
         puts "welcome to the casino!\n What is your name?"
         name = gets.strip
